@@ -8,7 +8,7 @@ import App from './App';
 import templatePage from "./posts/template";
 
 const routing = (
-    <HashRouter>
+    <HashRouter basename="/">
         <Switch>
             <Route exact path = "/" component = { App } />
             <Route path = "/template" component = { templatePage } />
